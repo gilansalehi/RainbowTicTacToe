@@ -1,3 +1,2 @@
-window.TTT = {}
-TTT.View = require('./ttt-view');
-TTT.Game = require('../../ttt-core-solution/game');
+var View = require('./ttt-view');
+var Game = require('../../ttt-core-solution/game');
