@@ -44,9 +44,15 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	window.TTT = {}
-	TTT.View = __webpack_require__(1);
-	TTT.Game = __webpack_require__(2);
+	var View = __webpack_require__(1);
+	var Game = __webpack_require__(2);
+
+	$(function () {
+	  var rootEl = $('.ttt');
+	  var game = new Game();
+	  new View(game, rootEl);
+	});
+
 
 
 /***/ },
