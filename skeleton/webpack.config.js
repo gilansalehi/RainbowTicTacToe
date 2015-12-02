@@ -6,5 +6,6 @@ module.exports = {
     filename: "bundle.js",
     devtoolModuleFilenameTemplate: '[resourcePath]',
     devtoolFallbackModuleFilenameTemplate: '[resourcePath]?[hash]'
-  }
+  },
+  devtool: 'source-maps'
 };
