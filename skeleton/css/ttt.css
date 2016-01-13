@@ -1,0 +1,60 @@
+
+/*RESET*/
+
+body, h1, figure, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+
+  background: transparent;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: yellow;
+  color: black;
+  margin: auto;
+}
+
+h1, strong, .ttt > ul > li {
+  font-weight: 700;
+  font-size: 64px;
+  font-family: sans-serif;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+.ttt {}
+
+.ttt > ul {
+  width: 300px;
+  margin: auto;
+  border: 3px solid chartreuse;
+
+}
+
+.ttt > ul > li {
+  border: 3px solid chartreuse;
+  float: left;
+  height: 94px;
+  width: 94px;
+  line-height: 1.5;
+}
+
+.ttt > ul > li:hover {
+  background: teal;
+}
